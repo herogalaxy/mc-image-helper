@@ -74,7 +74,7 @@ jreleaser {
     release {
         github {
             //noinspection GroovyAccessibility
-            owner = 'itzg'
+            owner = 'herogalaxy'
             branch = 'master'
             prerelease {
                 pattern = '.*-SNAPSHOT'
