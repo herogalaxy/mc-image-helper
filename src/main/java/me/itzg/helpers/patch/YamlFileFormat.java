@@ -17,8 +17,7 @@ public class YamlFileFormat implements FileFormat {
 
     public YamlFileFormat() {
         objectMapper = new YAMLMapper()
-                .configure(YAMLGenerator.Feature.WRITE_DOC_START_MARKER, false)
-                .configure(YAMLGenerator.Feature.MINIMIZE_QUOTES, true);
+                .configure(YAMLGenerator.Feature.WRITE_DOC_START_MARKER, false);
     }
 
     @Override
